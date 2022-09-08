@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- font awesome 6 -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+  <header class="header">
+<div class="container">
+  <div class="content">
+    <h1>Hi I'm <span>Diana Ahmad</span></h1>
+  <p>This Is First Assinment Java Script</p>
+  <button type="button" class="btn btn-secondary "><a href="#Qa" class="text-white text-decoration-none">Go To Question</a></button>
+  </div>
+</div>
+</header>
+<section id="Qa" Class ="Question mt-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card1">
+        <div class="card-header">
+          Question#1
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program that allow to user enter number then
+            print it</h5>
+          <p class="card-text " id="answer1"></p>
+          <a href="#card1" class="btn btn-primary" onclick="Answer1()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card2">
+        <div class="card-header">
+          Question#2
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program that take number from user then print
+            yes if that number can divide by 3
+            and 4 otherwise print no</h5>
+          <p class="card-text" id="answer2"></p>
+          <a href="#card2" class="btn btn-primary" onclick="Answer2()" >Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card3">
+        <div class="card-header">
+          Question#3
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program that allows the user to insert 2 integers
+            then print the max</h5>
+          <p class="card-text" id="answer3"></p>
+          <a href="#card3" class="btn btn-primary" onclick="Answer3()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card4">
+        <div class="card-header">
+          Question#4
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program that allows the user to insert an integer
+            then print negative if it is negative number otherwise print
+            positive.</h5>
+          <p class="card-text" id="answer4"></p>
+          <a href="#card4" class="btn btn-primary" onclick="Answer4()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card5">
+        <div class="card-header">
+          Question#5
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program that take 3 integers from user then print
+            the max element
+            and the min element.</h5>
+          <p class="card-text" id="answer5"></p>  <p id="ans5"></p>
+          
+          <a href="#card5" class="btn btn-primary" onclick="max() , min()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card6">
+        <div class="card-header">
+          Question#6
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program that allows the user to insert integer
+            number then  check If a number is oven or odd</h5>
+          <p class="card-text" id="answer6"></p>
+          <a href="#card6" class="btn btn-primary" onclick="Answer6()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card7">
+        <div class="card-header">
+          Question#7
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program that take character from user then if it is
+            vowel chars (a,e,I,o,u)
+            then print vowel otherwise print consonant</h5>
+          <p class="card-text" id="answer7"></p>
+          <a href="#card7" class="btn btn-primary" onclick="Answer7()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card8">
+        <div class="card-header">
+          Question#8
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program that allows user to insert integer then print all
+            numbers between 1 to that’s number</h5>
+          <p class="card-text" id="answer8"></p>
+          <a href="#card8" class="btn btn-primary" onclick="Answer8()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card9">
+        <div class="card-header">
+          Question#9
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program that allows user to insert integer then
+            print a multiplication table up to 12</h5>
+          <p class="card-text" id="answer9"></p>
+          <a href="#card9" class="btn btn-primary" onclick="Answer9()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+    
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card10">
+        <div class="card-header">
+          Question#10
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program that allows to user to insert number
+            then print all even numbers between 1 to this number</h5>
+          <p class="card-text" id="answer10"></p>
+          <a href="#card10" class="btn btn-primary" onclick="Answer10()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+  
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card11">
+        <div class="card-header">
+          Question#11
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program that take two integers then print the
+            power</h5>
+          <p class="card-text" id="answer11"></p>
+          <a href="#card11" class="btn btn-primary" onclick="Answer11()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card12">
+        <div class="card-header">
+          Question#12
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program to enter marks of five subjects and
+            calculate total, average and percentage.</h5>
+          <p class="card-text" id="sum"></p>
+          <p class="card-text" id="avg"></p>
+          <p class="card-text" id="perc"></p>
+          <a href="#card12" class="btn btn-primary" onclick="Answer12()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card13">
+        <div class="card-header">
+          Question#13
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program to input month number and print
+            number of days in that month.</h5>
+          <p class="card-text" id="answer13"></p>
+         
+          <a href="#card13" class="btn btn-primary" onclick="Answer13()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card14">
+        <div class="card-header">
+          Question#14
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program to input marks of five subjects
+            Physics, Chemistry, Biology, Mathematics and Computer,
+            Find percentage and grade</h5>
+            <p class="" id="ans14"></p>
+          <p class="card-text" id="answer14"></p>
+         
+          <a href="#card14" class="btn btn-primary" onclick="Answer14()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card15">
+        <div class="card-header">
+          Question#15
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program to print total number of days in month By Switch Case</h5>
+          
+          <p class="card-text" id="answer15"></p>
+         
+          <a href="#card15" class="btn btn-primary" onclick="Answer15()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card16">
+        <div class="card-header">
+          Question#16
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program to check whether an alphabet is vowel
+            or consonant By Switch Case</h5>
+          
+          <p class="card-text" id="answer16"></p>
+         
+          <a href="#card16" class="btn btn-primary" onclick="Answer16()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card17">
+        <div class="card-header">
+          Question#17
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program to find maximum between two
+            numbers by using switch case</h5>
+          
+          <p class="card-text" id="answer17"></p>
+         
+          <a href="#card17" class="btn btn-primary" onclick="Answer17()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card18">
+        <div class="card-header">
+          Question#18
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program to check whether a number is even or
+            odd by using switch case</h5>
+          
+          <p class="card-text" id="answer18"></p>
+         
+          <a href="#card18" class="btn btn-primary" onclick="Answer18()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card19">
+        <div class="card-header">
+          Question#19
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program to check whether a number is positive
+            or negative or zero by using switch case</h5>
+          
+          <p class="card-text" id="answer19"></p>
+         
+          <a href="#card19" class="btn btn-primary" onclick="Answer19()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+
+
+    <div class="col-md-12 mb-4">
+      <div class="card" id="card20">
+        <div class="card-header">
+          Question#20
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a program to create Simple Calculator by using switch case</h5>
+          
+          <p class="card-text" id="answer20"></p>
+         
+          <a href="#card20" class="btn btn-primary" onclick="Answer20()">Show Answer</a>
+        </div>
+      </div>
+     
+    </div>
+
+  </div>
+</div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+ 
+
+    
+    <!-- bootstrap 5 -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
